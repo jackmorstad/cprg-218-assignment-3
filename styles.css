@@ -823,3 +823,407 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+/* spa */ 
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.weather {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* Spa Overview Section */
+.spa-overview {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.spa-overview h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Services Offered Section */
+.services-offered {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services-offered h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Signature Treatments Section */
+.signature-treatments {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.signature-treatments h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.treatment {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.treatment-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.treatment h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Spa Reservation Section */
+.spa-reservation {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.spa-reservation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.spa-reservation p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-book-now {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-book-now:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+
+    .service, .treatment {
+        margin-bottom: 15px;
+    }
+}
+
+/* testimonials */ 
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.weather {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #34495e;
+    padding: 10px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* Guest Testimonials Section */
+.guest-testimonials {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.guest-testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-book-now {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-book-now:hover {
+    background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+}
